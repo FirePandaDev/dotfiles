@@ -1,0 +1,3 @@
+alias clients="lsof -U +c 15 | cut -f1 -d' ' | sort | uniq -c | sort -rn | head -3"
+alias fetch="hyfetch --ascii-file ~/.config/ascii"
+alias ls="eza"
